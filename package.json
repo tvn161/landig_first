@@ -1,0 +1,32 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "* убедится что установлен node.js b npm. для этого достаточно написать в терминале:\r > node -v\r > node - npm\r * моя версия node 12.16.2, npm 6.14.4\r * убедится что работает gulp 4 версии или новее, если не установлен, то ставим",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tvn161/landig_first.git"
+  },
+  "author": "tvn161",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tvn161/landig_first/issues"
+  },
+  "homepage": "https://github.com/tvn161/landig_first#readme",
+  "dependencies": {
+    "core-util-is": "^1.0.2",
+    "gulp4": "^4.0.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp.spritesmith": "^6.11.0",
+    "rimraf": "^3.0.2"
+  }
+}

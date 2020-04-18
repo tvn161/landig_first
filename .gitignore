@@ -1,5 +1,26 @@
 .idea/
+package-lock.json
 build
-nodu_modules
+node_modules
 npm-debug.log
 .DS_store
+###windows template
+#windows image file caches
+thumbs.db
+ehthumbs.db
+
+# folder config file
+desktop.ini
+
+# recycle bin used on file shares
+$recycle.bin/
+
+# windows installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
